@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <link href="mystyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ffa638262f.js" crossorigin="anonymous"></script>
+<!-- boostrap W3-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        
+ /*CONTAINER */
+    .container {
+        padding: 80px 120px;
+        position: relative;
+      }
+ 
+    .carousel-inner img {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%); /* make all photos black and white */ 
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+        position: relative;
+      }
+    .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: black !important;
+    left: 1020px;
+
+    }
+    .bottomleft {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  font-size: 18px;
+  color: black !important;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-size: 18px;
+  color: black !important;
+}
+  /* NAVBAR */
+
+      .navbar {
+        margin-bottom: 0;
+
+        border: 0;
+        font-size: 12px !important;
+        font-style: SVN-Gilroy !important;
+        letter-spacing: 3px;
+        opacity: 0.5;
+      }
+      .navbar li a, .navbar .navbar-brand { 
+        color: #111111 !important;
+      }
+      .navbar-nav li a:hover {
+        color: rgb(28, 11, 182) !important;
+      }
+      .navbar-nav li.active a {
+        color: rgb(216, 13, 13) !important;
+        background-color:#000 !important;
+      }
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+      }
+   /* BOX  */
+   .box {
+    opacity: 0.8;
+    background-color: Black;
+    position: absolute;
+    width: 390px;
+    height: 210px;
+    left: 50px;
+    top: 640px;
+    margin: 10px;
+    padding: 15px 15px;
+   }
+
+    </style>
+    </head>
+    <body>
+          <!-- navtop bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="about.html"> <b>NORDIC CODER </b></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="detail.html"> <b>New</b> </a></li>
+            <li><a href="contact.html"> <b>Shop</b></a></li>
+            <li><a href="listing.html"> <b>Sale</b></a></li>
+            <li><a href="login.html"> <b>Login</b></a></li>
+            <li><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+        <!-- baner -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/biareven.jpg" alt="Container" width="1200" height="700">     
+          </div>
+          <div class="center">
+            <h1 style="font-size: 70px !important; right: 200px !important;">REVEN</h1>
+        </div>
+        <div class="bottomleft">
+            <i class="fa-solid fa-arrow-left"></i><p style="display:inline-block;"> &emsp;</p><i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="bottomright">
+            <a href="detail.html" style="color:black !important; font-size: 18px !important;"> <b> Shop Now</b> </a> 
+            <a href="listing.html" style="color:black !important; font-size: 18px !important;"> &emsp; <i class="fa-solid fa-circle-arrow-right"></i></a>
+        </div>
+               </div>
+    </div>
+    <div class="box" style="">
+        <p style="color:white;line-height: 35px !important; font-size: 18px !important;">This is a standard cookie notice which you can easily adapt or disable as you like in the admin. 
+            We use cookies to ensure that we give you the best experience on our website.</p>
+    <p style="text-align:center !important; color:white; display: inline-block;size: line-height: 35px !important;font-size: 18px !important; text-align: center !important;">Privacy policy  </p> &emsp; 
+    <p style="color: white; text-decoration: underline;display: inline-block;line-height: 35px !important;font-size: 20px !important; text-align: right !important;">
+    Accept <i class="fa-solid fa-check"></i></p>
+    </div>
+  <h1 style="text-align:right !important; padding: 20px 20px !important;">
+   <a href="contact.html" style="color: black !important;"> 
+    <i  class="fa-brands fa-facebook-messenger" style="width: 100px;"></i></h1> </a>
+    </body>
+    </html>
+    

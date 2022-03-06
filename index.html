@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <link href="mystyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ffa638262f.js" crossorigin="anonymous"></script>
+<!-- boostrap W3-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        
+ /*CONTAINER */
+    .container {
+        padding: 80px 120px;
+        position: relative;
+      }
+ 
+    .carousel-inner img {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%); /* make all photos black and white */ 
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+        position: relative;
+      }
+    .content-img {
+      position:relative;
+
+    }
+    .img {width:100%;
+    height:auto;
+    margin: 0%;
+
+}
+
+    .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: black !important;
+    left: 1020px;
+
+    }
+    .center-content {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  background-image: url(img/Rectangle\ 19.png);
+  padding: 50px 200px;
+    }
+    .bottomleft {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  font-size: 18px;
+  color: black !important;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-size: 18px;
+  color: black !important;
+}
+.topleft {
+  position: absolute;
+  top: 57px;
+  left: 180px;
+  font-size: 18px;
+}
+.topright {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  font-size: 18px;
+}
+
+
+  /* NAVBAR */
+
+  .navbar {
+        margin-bottom: 0;
+
+        border: 0;
+        font-size: 12px !important;
+        font-style: SVN-Gilroy !important;
+        letter-spacing: 3px;
+        opacity: 0.5;
+      }
+      .navbar li a, .navbar .navbar-brand { 
+        color: #111111 !important;
+      }
+      .navbar-nav li a:hover {
+        color: rgb(28, 11, 182) !important;
+      }
+      .navbar-nav li.active a {
+        color: rgb(216, 13, 13) !important;
+        background-color:#000 !important;
+      }
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+      }
+    /* FLEX CONTAINER - FLOAT - CLEAR - LAYOUT */
+.flex-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  .flex-container-1 > div {
+    margin: 70px;
+    text-align: left;
+    line-height: 30px;
+  }
+
+.flex-container-2 {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+.footer {
+    background-image: url(img/Rectangle\ 4.png);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 50px;
+}
+    
+    </style>
+    </head>
+    <body>
+        <!-- navtop bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="about.html"> <b>NORDIC CODER </b></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="detail.html"> <b>New</b> </a></li>
+            <li><a href="contact.html"> <b>Shop</b></a></li>
+            <li><a href="listing.html"> <b>Sale</b></a></li>
+            <li><a href="login.html"> <b>Login</b></a></li>
+            <li><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+        <!-- baner -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/biareven.jpg" alt="Container" width="1200" height="700">     
+          </div>
+          <div class="center">
+            <h1 style="font-size: 70px !important; right: 200px !important;">REVEN</h1>
+        </div>
+        <div class="bottomleft">
+            <i class="fa-solid fa-arrow-left"></i><p style="display:inline-block;"> &emsp;</p><i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <div class="bottomright">
+            <a href="detail.html" style="color:black !important; font-size: 18px !important;"> <b> Shop Now</b> </a> 
+            <a href="listing.html" style="color:black !important; font-size: 18px !important;"> &emsp; <i class="fa-solid fa-circle-arrow-right"></i></a>
+        </div>
+        </div>
+        </div>
+    <!-- MAIN - CONTENT -->
+<section>
+<div class="flex-container-1">
+    <div style="flex-grow: 1"></div>
+    <div style="flex-grow: 2">
+    <img src="img/findyournewlook.jpg" alt="Find your new look with the fresh fall fashion ideas.">
+    </div>
+    <div style="flex-grow: 2">
+        <p style="font-size: 25px; padding: 90px 0;"> <b>Find your new look with <br> the fresh fall fashion ideas. </b></p>
+    </div>
+    <div style="flex-grow: 1"></div>
+</div>
+</section>
+
+<section>
+    <div class="flex-container-1">
+        <div style="flex-grow: 1"></div>
+        <div style="flex-grow: 2">
+        <p style="font-size: 14px; padding: 70px 0;">
+            Amazing designs & collaborations, and as always <br>
+            100% Organic & Fairtrade certified cotton. Inspired <br>
+            by the georgious Brasilian bucket, a wonderful <br>
+            serenity has taken possession of my entire soul, like <br>
+            these sweet mornings of spring which.</p>
+        </div>
+        <div style="flex-grow: 2">
+            <img src="img/amazing.jpg" alt="amazing design">
+        </div>
+        <div style="flex-grow: 1"></div>
+    </div>
+</section>
+
+<section>
+<h1 style="font-size: 48px; text-align: center;font-weight: bold;">
+    Shop these outfit collections</h1>
+<p style="text-align:center; font-size: 16px;">100% Organic & Fairtrade certified cotton</p>
+<!-- Photo Grid -->
+<div class="flex-container-2">
+    <div style="flex-grow: 4"></div>
+    <div style="flex-grow: 4">
+    <img src="img/mystery.jpg" alt="mysery">
+    <img src="img/darling.jpg" alt="darling">   
+    <img src="img/beyong.jpg" alt="Beyong">
+    </div>
+    <div style="flex-grow: 1"></div>
+</div>
+</section>
+
+<div class="flex-container-2">
+    <div style="flex-grow: 4"></div>
+    <div style="flex-grow: 4">
+    <img src="img/reven.jpg" alt="reven"> 
+    <img src="img/leminin.jpg" alt="leminin">   
+    <img src="img/naturalism.jpg" alt="naturalism">
+    </div>
+    <div style="flex-grow: 1"></div>
+</div>
+
+<section>
+    <div class="flex-container-1">
+        <div style="flex-grow: 1"></div>
+        <div style="flex-grow: 2">
+            <p style="font-size: 16px;"> 
+                <b> Women’s Clothing and Accessories</b></p>
+            <p style="font-size: 14px;"> 
+                Searching for cute clothes? Shop Nordic Coder women’s <br>
+                 clothes, accessories and women’s shoes right here. Updated <br>
+                  daily with new arrivals of exclusive styles, favorite brands <br>
+                  and trends.</p>
+        </div>
+        <div style="flex-grow: 2">
+            <p style="font-size: 16px; "> 
+                <b> Shop For The Latest Clothes Online And Shoes Online. </b></p>
+            <p style="font-size: 14px;"> 
+                Nordic Coder delivers a stylish and current collection womens<br>
+                apparel, sourced from the most coveted Australian and international <br>
+                brands. With everything from dresses to jeans, ankle boots to <br>
+                sneakers, watches to wallets, our selection of over 20,000 products <br>
+                has something for every style.</p>
+        </div>
+        <div style="flex-grow: 1"></div>
+    </div>
+</section>
+<section>
+    <div class="content-img">
+        <img src="img/Rectangle 12.png" >
+        <div class="topleft">
+            <img src="img/newcustomer.png">
+        </div>
+        <div class="topright">
+        <img src="img/newcustomer2.png">
+        </div>
+        <div class="center-content">
+        <p style="font-size: 40px;font-weight: bold; text-align:center;">New customer?</p>
+        <p style="text-align:center; ">Receive instantly voucher valued at</p>
+        <p style="text-align: center; font-size: 36px; font-weight: bold;">50€</p>
+        <p style="font-size: 14px; text-align:center; ">and other attractive deals and latest trends</p>
+        <div style="">
+        <textarea id="subject" name="subject" placeholder="Email Address" style="height:30px; border:none;"></textarea>
+        <br><input type="submit" value="Submit" style="border-radius: 38%;text-align: center; background-color: black; border:none; color:white;font-size: 14px;padding: 10px 20px">
+        </div> </div>
+    </div> 
+</section>
+<h1 style="text-align:center;font-weight: bold;font-size: 48px;line-height: 50px;">Follow us on instagram</h1>
+<p style="text-align:center;line-height: 50px;color:rgb(190, 97, 152)">@nordiccoder</p>
+<section>
+<div class="flex-container-2">
+        <div style="flex-grow: 2"></div>
+        <div style="flex-grow: 1">
+        <img src="img/instagram1.jpg" alt="ins1">
+        <img src="img/instagram2 (1).jpg" alt="ins1"> 
+        <img src="img/instagram3.jpg" alt="ins1">
+        <img src="img/instagram4.jpg" alt="ins1">
+        <img src="img/instagram5.jpg" alt="ins1">
+        </div>
+        <div style="flex-grow: 1"></div>
+    </div>  
+<section>
+    <br> <br>
+    <br> <br>
+</section>
+
+<section>
+    <div class="footer">
+<div class=" flex-container-2">
+        <div style="flex-grow: 2"></div>
+        <div style="flex-grow: 1; list-style: none; color:#111111 !important;">
+                <li><a class="footer-top1" href="about.html">About us</a></li>
+                <li><a class="footer-content" href="about.html">Our company</a></li>
+                <li><a class="footer-content" href="about.html">Our history</a></li>
+                <li><a class="footer-content" href="contact">Contact</a></li>
+                <li><a class="footer-content" ref="contact.html">Jobs</a></li>
+                <li><a class="footer-content" href="about.html">Journal</a></li>
+                <li><a class="footer-content" href="location.html">Store Locations</a></li>
+        </div>
+        <div style="flex-grow: 1; list-style: none;color:#111111 !important;">
+                <li><a class="footer-top1" href="contact.html">How can we help</a></li>
+                <li><a class="footer-content" href="about.html">FAQs</a></li>
+                <li><a class="footer-content" href="contact.html">Order tracking</a></li>
+                <li><a class="footer-content" href="about.html">Terms & Conditions</a></li>
+                <li><a class="footer-content" href="about.html">Privacy Policy</a></li>
+                <li><a class="footer-content" href="contact.html">Returns & Refunds</a></li>
+                <li><a class="footer-content" href="contact.html">Support</a></li>
+        </div>
+        <div style="flex-grow: 1; list-style: none;color:#111111 !important;">
+                <li><a class="footer-top1" href="about.html">Shop</a></li>
+                <li><a class="footer-content" href="listing.html">Tops</a></li>
+                <li><a class="footer-content" href="listing.html">Accessories</a></li>
+                <li><a class="footer-content" href="listing.html">Jeans</a></li>
+                <li><a class="footer-content" href="listing.html">Jackets</a></li>
+                <li><a class="footer-content" href="listing.html">Shoes</a></li>
+        </div>
+        <div style="flex-grow: 1; list-style: none; color:#111111 !important;">
+                <li class="footer-top1"> Security system</ul>
+                <li class="footer-content"> <i style="color: #27AE60;" class="fa-solid fa-circle-check"></i> PCI
+                    security standards</li>
+                <li class="footer-content"> <i style="color: #27AE60;" class="fa-solid fa-circle-check"></i> Protect
+                    card owner</li>
+                <li class="footer-content"> <i style="color: #27AE60;" class="fa-solid fa-circle-check"></i>
+                    Encrypted network</li>
+        </div>
+        <div style="flex-grow: 1"></div>
+        </div>
+        <br>
+        
+         <p style="padding: 10px 20px;color: #828282;"   class="footer-end-content"> 
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+          Copyright © 2020 Nordic Coder. All rights reserved.</p>
+</div>
+</section>
+    </body>
+    </html>
+    

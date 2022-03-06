@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <link href="mystyle.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ffa638262f.js" crossorigin="anonymous"></script>
+<!-- boostrap W3-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        
+ /*CONTAINER */
+    .container {
+        padding: 80px 120px;
+        position: relative;
+      }
+ 
+    .carousel-inner img {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%); /* make all photos black and white */ 
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+        position: relative;
+      }
+    .content-img {
+      position:relative;
+
+    }
+    .img {width:100%;
+    height:auto;
+    margin: 0%;
+
+}
+
+    .center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: black !important;
+    left: 1020px;
+
+    }
+    .center-content {
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  background-image: url(img/Rectangle\ 19.png);
+  padding: 50px 200px;
+    }
+    .bottomleft {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  font-size: 18px;
+  color: black !important;
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  font-size: 18px;
+  color: black !important;
+}
+.topleft {
+  position: absolute;
+  top: 57px;
+  left: 180px;
+  font-size: 18px;
+}
+.topright {
+  position: absolute;
+  top: 0px;
+  right: 16px;
+  font-size: 18px;
+}
+
+
+  /* NAVBAR */
+
+  .navbar {
+        margin-bottom: 0;
+
+        border: 0;
+        font-size: 12px !important;
+        font-style: SVN-Gilroy !important;
+        letter-spacing: 3px;
+        opacity: 0.5;
+      }
+      .navbar li a, .navbar .navbar-brand { 
+        color: #111111 !important;
+      }
+      .navbar-nav li a:hover {
+        color: rgb(28, 11, 182) !important;
+      }
+      .navbar-nav li.active a {
+        color: rgb(216, 13, 13) !important;
+        background-color:#000 !important;
+      }
+      .navbar-default .navbar-toggle {
+        border-color: transparent;
+      }
+    /* FLEX CONTAINER - FLOAT - CLEAR - LAYOUT */
+.flex-container-1 {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  
+  .flex-container-1 > div {
+    margin: 70px;
+    text-align: left;
+    line-height: 30px;
+  }
+
+.flex-container-2 {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+  .flex-container-2 > div {
+    text-align: left;
+    line-height: 30px;
+  }
+  .flex-container-4 {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-4 > div {
+  width: 220px;
+  margin: 5px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.footer {
+    background-image: url(img/Rectangle\ 4.png);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 30px 50px;
+}
+    
+    </style>
+    </head>
+<body>
+ <!-- navtop bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+        <a class="navbar-brand" href="about.html"> <b>NORDIC CODER </b></a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="detail.html"> <b>New</b> </a></li>
+            <li><a href="contact.html"> <b>Shop</b></a></li>
+            <li><a href="listing.html"> <b>Sale</b></a></li>
+            <li><a href="login.html"> <b>Login</b></a></li>
+            <li><a href="detail.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+      
+<!-- MAIN CONTENT    --> 
+
+<section> 
+    <div class="flex-container-1">
+        <div></div>
+    </div>
+    </section>
+
+<section>
+    <div class="flex-container-2">
+        <div style="flex-grow: 1;"></div>
+<!--   LEFT LAYOUT    -->
+        <div style="flex-grow: 1;"> 
+        <img src="img/juliadetail2.jpg"> <br> <br>
+        <img src="img/Rectangle 25 (1).png"> <br> <br>
+        <img src="img/Rectangle 26 (1).png"> <br> <br>
+        <img src="img/juliadetail1.jpg"> <br> <br>
+        </div>
+        <br> <br>
+<!-- CENTER LAYOUT    -->
+        <div style="flex-grow: 1;"> 
+        <img src="img/Rectangle 21 (7).jpg" style="width:400px;">
+        </div>
+        <div style="flex-grow: 2; text-align: left;"> 
+        <p style="font-size: 14px;line-height: 20px;font-family: SVN-Gilroy; display: inline-block;"> Home</p> &nbsp;
+        <i class="fa-solid fa-arrow-right" style="color: #BDBDBD; Width: 5px;"></i> &ensp;
+        <p style="font-size: 14px;line-height: 20px;font-family: SVN-Gilroy; display: inline-block;"> Jackets </p> &nbsp;
+        <i class="fa-solid fa-arrow-right" style="color: #BDBDBD; Width: 5px;"></i> &ensp;
+        <p style="font-size: 14px;line-height: 20px;font-family: SVN-Gilroy; display: inline-block;"> Julia </p> &nbsp;
+        <i class="fa-solid fa-arrow-right" style="color: #BDBDBD; Width: 5px;"></i> &ensp;
+        <h1 style="font-size: 48px;font-weight: bold;line-height: 50px;font-family: SVN-Gilroy;">
+            Julia
+        </h1>
+        <P style="font-size: 16px;font-style: normal;font-family: SVN-Gilroy;"> <b>$249.00</b></P>
+        <br>
+        <!-- color --> 
+        <p style="font-size: 16px;color: #828282;font-family: SVN-Gilroy;display: inline-block;">
+        Color</p> &nbsp; &nbsp;
+        
+        <i class="fa-solid fa-circle" style="color: black;"></i> &nbsp;&nbsp; 
+        <i class="fa-solid fa-circle" style="color:#E0E0E0;"></i> &nbsp;&nbsp; 
+        <i class="fa-regular fa-circle" style="color:rgb(0, 0, 0); background-color: #EB5757; border-radius: 100%;"></i> &nbsp;
+        <!-- Size --> <br>
+        <p style="font-size: 16px;color: #828282;font-family: SVN-Gilroy;display: inline-block;">
+            Size</p> &nbsp; &nbsp;
+            <p style="font-size: 14px;font-family: SVN-Gilroy;display:inline-block;">XS</p>&nbsp;&nbsp; 
+            <p style="font-size: 14px;font-family: SVN-Gilroy;display:inline-block;border-radius: 100%;border: 1px solid #000; padding: 0px 10px;"> S</p> &nbsp;&nbsp; 
+            <p style="font-size: 14px;font-family: SVN-Gilroy;display:inline-block;">M</p>&nbsp;&nbsp; 
+            <p style="font-size: 14px;font-family: SVN-Gilroy;display:inline-block;">L</p>&nbsp;&nbsp; 
+<!-- INCREASE - DECREASE BUTTON -->
+<br> <br>
+<P style="display:inline-block;font-size: 16px;font-family: SVN-Gilroy; ">Add to cart</P> &nbsp;
+<i class="fa-solid fa-circle-arrow-right" style="width: 100px !important;"></i> 
+<br>
+<p style="color: #828282;font-size: 14px;font-family: SVN-Gilroy;"> SKU: 86423-AB</p>
+<p style="color: #828282;font-size: 14px;font-family: SVN-Gilroy;"> Category: Jacket</p>
+<br>
+<br>
+<br>
+<br> <br>
+<p style="font-family: SVN-Gilroy;font-size: 16px;color: #828282;display: inline-block;">Share</p> &nbsp; 
+<i class="fa-brands fa-facebook-f"></i> &nbsp;&nbsp;
+<i class="fa-brands fa-twitter"></i> &nbsp;&nbsp;
+<i class="fa-brands fa-google-plus-g"></i> &nbsp;&nbsp;
+<i class="fa-brands fa-pinterest"></i> &nbsp;&nbsp;
+    </div>
+ <div style="flex-grow: 3;"> </div>
+ <!--end-->
+</div>
+</section>
+<!-- NEXT -->
+<br> <br> <br>
+<section>
+    <div class="flex-container-2">
+        <div style="flex-grow: 4"></div>
+        <div style="flex-grow: 2">
+        <p style="font-size: 20px;font-family: SVN-Gilroy;line-height: 190%;display:inline-block;text-align: center;">
+            Description</p>&emsp;
+        <p style="color: #BDBDBD;font-size: 20px;font-family: SVN-Gilroy;display:inline-block;text-align: center;">
+            Additional information</p>&emsp;
+        <p style="color: #BDBDBD;font-size: 20px;font-family: SVN-Gilroy;display:inline-block;text-align: center;">
+            Reviews (1)</p>&emsp;
+        </div>
+        <div style="flex-grow: 2"></div>
+    </div>
+</section>
+<br> <br>
+<section>
+<div class="flex-container-2">  
+    <div style="flex-grow: 1"> </div>
+    <div style="flex-grow: 12;">
+    <p style="font-size: 14px;text-transform: uppercase;font-family: SVN-Gilroy;color: #828282;">
+        CONTENT & CARE</p>
+    <li style="font-size: 16px;font-family: SVN-Gilroy;">Nylon, Metallic, Spandex</li>
+    <li style="font-size: 16px;font-family: SVN-Gilroy;">Imported</li>
+    <li style="font-size: 16px;font-family: SVN-Gilroy;">Dry Flat</li>
+<br>
+    <p style="font-size: 14px;text-transform: uppercase;font-family: SVN-Gilroy;color: #828282;">
+        DETAILS & FIT</p>
+    <li style="font-size: 16px;font-family: SVN-Gilroy;">Length: 32" </li>
+    <li style="font-size: 16px;font-family: SVN-Gilroy;"> Measured in size Small </li>
+    <p style="font-size: 16px;font-family: SVN-Gilroy;">Red modeled on size Small.<br>
+        Model’s profile: height 5'7", bust 32", waist 25”</p>
+    <br> <br> <br>
+    <h1 style="font-size: 36px;font-family: SVN-Gilroy;font-family: SVN-Gilroy;font-weight: bold;"> 
+        Related Products</h1>
+</div>
+</div>
+</section>
+
+<div class="flex-container-4">
+    <div></div>
+    <div >
+    <img style="width:220px;" src="img/elly.jpg">
+    <p><b>Elly </b></p>
+    <p style="display: inline-block;">€99.00 </p> &nbsp;
+    <p style="display:inline-block;color:#828282;text-decoration:line-through;"> €119.00</p>
+    </div>
+
+    <div>
+    <img style="width:220px;" src="img/juliadetail1.png">
+    <p><b>Julia </b></p>
+    <p style="display: inline-block;">€99.00 </p> &nbsp;
+    <p style="display:inline-block;color:#828282;text-decoration:line-through;"> €119.00</p>
+    </div>
+
+    <div >
+    <img style="width:220px;" src="img/juliadetail2.png">
+    <p><b>Julia </b></p>
+    <p style="display: inline-block;">€99.00 </p> &nbsp;
+    <p style="display:inline-block;color:#828282;text-decoration:line-through;"> €119.00</p>
+    </div>
+
+    <div >
+    <img style="width:220px;" src="img/juliadetail4.png">
+    <p><b>Julia </b></p>
+    <p style="display: inline-block;">€99.00 </p> &nbsp;
+    <p style="display:inline-block;color:#828282;text-decoration:line-through;"> €119.00</p>
+    </div>
+
+    <div></div>
+   
+   
+</div>
+</section>
+
+<!-- FOOTER  -->    
+<section>
+    <div class="footer">
+<div class=" flex-container-2">
+        <div style="flex-grow: 2"></div>
+        <div style="flex-grow: 1; list-style: none; color:#111111 !important;">
+                <li><a class="footer-top1" href="about.html">About us</a></li>
+                <li><a class="footer-content" href="about.html">Our company</a></li>
+                <li><a class="footer-content" href="about.html">Our history</a></li>
+                <li><a class="footer-content" href="contact">Contact</a></li>
+                <li><a class="footer-content" ref="contact.html">Jobs</a></li>
+                <li><a class="footer-content" href="about.html">Journal</a></li>
+                <li><a class="footer-content" href="location.html">Store Locations</a></li>
+        </div>
+        <div style="flex-grow: 1; list-style: none;color:#111111 !important;">
+                <li><a class="footer-top1" href="contact.html">How can we help</a></li>
+                <li><a class="footer-content" href="about.html">FAQs</a></li>
+                <li><a class="footer-content" href="contact.html">Order tracking</a></li>
+                <li><a class="footer-content" href="about.html">Terms & Conditions</a></li>
+                <li><a class="footer-content" href="about.html">Privacy Policy</a></li>
+                <li><a class="footer-content" href="contact.html">Returns & Refunds</a></li>
+                <li><a class="footer-content" href="contact.html">Support</a></li>
+        </div>
+        <div style="flex-grow: 1; list-style: none;color:#111111 !important;">
+                <li><a class="footer-top1" href="about.html">Shop</a></li>
+                <li><a class="footer-content" href="listing.html">Tops</a></li>
+                <li><a class="footer-content" href="listing.html">Accessories</a></li>
+                <li><a class="footer-content" href="listing.html">Jeans</a></li>
+                <li><a class="footer-content" href="listing.html">Jackets</a></li>
+                <li><a class="footer-content" href="listing.html">Shoes</a></li>
+        </div>
+        <div style="flex-grow: 1; list-style: none; color:#111111 !important;">
+                <li class="footer-top1"> Security system</ul>
+                <li class="footer-content"> <i style="color: #27AE60;" class="fa-solid fa-circle-check"></i> PCI
+                    security standards</li>
+                <li class="footer-content"> <i style="color: #27AE60;" class="fa-solid fa-circle-check"></i> Protect
+                    card owner</li>
+                <li class="footer-content"> <i style="color: #27AE60;" class="fa-solid fa-circle-check"></i>
+                    Encrypted network</li>
+        </div>
+        <div style="flex-grow: 1"></div>
+        </div>
+        <br>
+        <p style="padding: 10px 20px;color: #828282;"   class="footer-end-content"> 
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            Copyright © 2020 Nordic Coder. All rights reserved.</p>
+</div>
+</section>
+    </body>
+    </html>
+    
